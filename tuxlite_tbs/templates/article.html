@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block windowtitle %}{{ article.title }}-{{SITENAME}}{% endblock %}
+{% block content %}
+    <div class='article'>
+        <div class="content-title">
+            <h1>{{ article.title }}</h1>
+            {% include "metadata.html" %}
+        </div>
+	
+        <div>{{ article.content }}</div>
+	
+        <hr>
+
+<!-- 	{% include "twitter.html" %} -->
+    {% if GENTIE163_COMMENT %}
+        <h2>Comments</h2>
+        {% include "gentie163.html" %}
+    {% endif %}
+    </div>
+{% endblock %}
