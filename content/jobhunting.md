@@ -3,7 +3,7 @@ date: 2017-05-02 23:00
 author: guozhongxin
 category: summary
 slug: jobhunting   
-summary: 
+<!-- summary:  -->
 
 ## 起步有点慢的求职季
 

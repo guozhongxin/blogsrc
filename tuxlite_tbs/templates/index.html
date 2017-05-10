@@ -14,7 +14,7 @@
             {% include "metadata.html" %} 
         </div>
         
-        <div>{{ article.content }}</div>
+        <div class="summary">{{ article.summary }} <a class="btn btn-info xsmall" href="{{ SITEURL }}/{{ article.url }}">read more</a></div>
         <hr />
     </div>
 		

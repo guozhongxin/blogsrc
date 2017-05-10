@@ -7,6 +7,8 @@ SITENAME = u"guozhongxin's blog"
 SITEURL = 'http://www.guozhongxin.com'
 THEME='tuxlite_tbs'
 
+SUMMARY_MAX_LENGTH = 20
+
 PATH = 'content'
 
 GITHUB_URL = 'https://github.com/guozhongxin'
@@ -37,7 +39,7 @@ ARTICLE_FEED_RSS='feeds/articles/%s.rss.xml'
 PLUGIN_PATHS = ['/Users/macbook/Documents/myblog/plugins']
 PLUGINS = ["baidu_sitemap","sitemap"]
 
-## 配置sitemap 插件
+## Set sitemap plugins
 BAIDU_SITEMAP = {
     "format": "xml",
     "priorities": {
